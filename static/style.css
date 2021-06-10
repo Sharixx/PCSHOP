@@ -1,0 +1,19 @@
+.logo_img {
+    width: 70px;
+}
+
+.logo_text {
+    font-size: 24px;
+}
+
+.heart_img {
+    width: 33px;
+}
+
+.basket_img {
+    width: 33px;
+}
+
+header {
+    background: red;
+}
