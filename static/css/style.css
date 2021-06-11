@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    height: 150px;
+
 }
 header a {
     text-decoration: none;
@@ -138,7 +138,7 @@ header a {
 .main_section{
     background: white;
     margin: 0px;
-    padding: 0px;
+    padding-top: 20px;
 }
 
 div{

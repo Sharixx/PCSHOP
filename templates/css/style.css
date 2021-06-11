@@ -7,7 +7,7 @@ body {
 header {
     background: linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%), #000000;
 
-    height: 800px;
+
 }
 header a {
     text-decoration: none;
@@ -133,4 +133,6 @@ header a {
 .nav_3 {
     font-size: 14px;
 }
+
+
 
