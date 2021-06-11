@@ -1,3 +1,9 @@
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background: linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%), #000000;
 
@@ -14,6 +20,7 @@ header a {
 
 .logo_img {
     width: 70px;
+    border-radius: 50px;
 }
 
 .logo_text {
@@ -93,3 +100,37 @@ header a {
     background: #3F3F3F;
     transition: 0.3s;
 }
+
+
+
+
+.nav_body {
+    height: 29px;
+    width: 100%;
+    background: #000000;
+
+}
+
+.nav_body a:hover{
+    color: #fff;
+}
+
+.nav_1 {
+    font-size: 14px;
+}
+
+
+
+.nav_2 {
+    font-size: 14px;
+
+    margin: 0 auto;
+}
+
+
+
+
+.nav_3 {
+    font-size: 14px;
+}
+
