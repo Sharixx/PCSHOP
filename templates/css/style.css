@@ -2,10 +2,11 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
+    background: linear-gradient(180deg, #000000 9.9%, #660404 52.6%, #000000 84.9%);
 }
 
 header {
-    background: linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%), #000000;
+
 
 
 }
@@ -13,6 +14,12 @@ header a {
     text-decoration: none;
     color: #fff;
 }
+
+div{
+    padding: 0;
+    margin: 0;
+}
+
 .header_nav {
     width: 100%;
     background: #0F0F0F;
@@ -52,7 +59,10 @@ header a {
 }
 
 
-
+.nav_body{
+    padding: 0;
+    margin: 0;
+}
 .logo_text {
     width: 100px;
     margin: 0 auto;
@@ -63,6 +73,7 @@ header a {
 .btns{
     padding-top: 24px;
     height: 33px;
+    float: right;
 }
 .button_login {
 
@@ -106,13 +117,17 @@ header a {
 
 .nav_body {
     height: 29px;
-    width: 100%;
+    width: 1320px;
+
+
     background: #000000;
 
 }
 
 .nav_body a:hover{
     color: #fff;
+    border-bottom: red;
+    transition: 0.3s;
 }
 
 .nav_1 {
@@ -124,7 +139,7 @@ header a {
 .nav_2 {
     font-size: 14px;
 
-    margin: 0 auto;
+
 }
 
 
@@ -132,6 +147,8 @@ header a {
 
 .nav_3 {
     font-size: 14px;
+    padding: 0;
+    margin: 0;
 }
 
 
