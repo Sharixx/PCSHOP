@@ -2,12 +2,11 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
+    background: linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%), #000000;
 }
 
 header {
-    background: linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%), #000000;
-
-    height: 800px;
+    height: 150px;
 }
 header a {
     text-decoration: none;
@@ -134,3 +133,15 @@ header a {
     font-size: 14px;
 }
 
+
+
+.main_section{
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    margin: 0px;
+    padding: 0px;
+}
