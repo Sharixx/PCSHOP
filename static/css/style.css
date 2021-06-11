@@ -2,7 +2,10 @@ body {
     color: #fff;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%), #000000;
+    background-size: cover;
+
+    background: #000000 linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%) no-repeat center;
+
 }
 
 header {
@@ -14,7 +17,7 @@ header a {
 }
 .header_nav {
     width: 100%;
-    background: #0F0F0F;
+    background: #000000;
 }
 
 .logo_img {
