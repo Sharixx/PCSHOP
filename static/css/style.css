@@ -6,6 +6,7 @@ body {
     background: #000000 linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%) no-repeat center;
 }
 
+
 header {
 
 }
@@ -135,3 +136,11 @@ div{
     margin: 0px;
     padding: 0px;
 }
+
+
+.filter{
+    background: #ffffff;
+    border: solid black;
+}
+
+

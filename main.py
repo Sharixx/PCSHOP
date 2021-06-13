@@ -12,12 +12,30 @@ def index():
 def base():
     return render_template('base.html')
 
+
 @app.route('/account')
 def account():
     return render_template('account.html')
 
 
-@app.route('')
+@app.route('/pcbuilds')
+def pcbuilds():
+    return render_template('pcbuilds.html')
+
+
+@app.route('/periphery')
+def periphery():
+    return render_template('periphery.html')
+
+
+@app.route('/complementary')
+def complementary():
+    return render_template('complementary.html')
+
+
+@app.route('/basket')
+def basket():
+    return render_template('basket.html')
 
 
 if __name__ == "__main__":
