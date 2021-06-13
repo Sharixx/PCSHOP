@@ -151,5 +151,16 @@ div{
     margin: 0;
 }
 
+.footer{
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+}
+
+.sots {
+    background: #000;
+}
 
 
