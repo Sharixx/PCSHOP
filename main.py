@@ -12,6 +12,13 @@ def index():
 def base():
     return render_template('base.html')
 
+@app.route('/account')
+def account():
+    return render_template('account.html')
+
+
+@app.route('')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
