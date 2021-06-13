@@ -3,18 +3,18 @@ body {
     margin: 0;
     padding: 0;
     background-size: cover;
-
     background: #000000 linear-gradient(180deg, #660404 49.85%, rgba(0, 0, 0, 0) 100%) no-repeat center;
-
 }
 
 header {
 
 }
+
 header a {
     text-decoration: none;
     color: #fff;
 }
+
 .header_nav {
     width: 100%;
     background: #000000;
@@ -29,8 +29,8 @@ header a {
     font-size: 24px;
     color: #fff;
     height: 70px;
-
 }
+
 .logo_text h2 {
     line-height: 2;
 }
@@ -39,6 +39,7 @@ header a {
     width: 33px;
     margin-top: 24px;
 }
+
 .heart_img:hover{
     width: 35px;
     transition: 0.3s;
@@ -48,26 +49,22 @@ header a {
     width: 33px;
     margin-top: 24px;
 }
+
 .basket_img:hover{
     width: 35px;
     transition: 0.3s;
 }
-
-
 
 .logo_text {
     width: 100px;
     margin: 0 auto;
 }
 
-
-
 .btns{
     padding-top: 24px;
     height: 33px;
 }
 .button_login {
-
     text-decoration: none;
     color: #fff;
     font-size: 14px;
@@ -79,6 +76,7 @@ header a {
     border-radius: 13.5px;
 
 }
+
 .button_login:hover {
     color: #fff;
     background: #3F3F3F;
@@ -97,20 +95,17 @@ header a {
     border-radius: 13.5px;
     margin-left: 5px;
 }
+
 .button_register:hover{
     color: #fff;
     background: #3F3F3F;
     transition: 0.3s;
 }
 
-
-
-
 .nav_body {
     height: 29px;
     width: 100%;
     background: #000000;
-
 }
 
 .nav_body a:hover{
@@ -121,22 +116,14 @@ header a {
     font-size: 14px;
 }
 
-
-
 .nav_2 {
     font-size: 14px;
-
     margin: 0 auto;
 }
-
-
-
 
 .nav_3 {
     font-size: 14px;
 }
-
-
 
 .main_section{
     background: white;
