@@ -22,7 +22,7 @@ div{
 
 .header_nav {
     width: 100%;
-    background: #0F0F0F;
+    background: #515151;
 }
 
 .logo_img {
@@ -126,7 +126,7 @@ div{
 
 .nav_body a:hover{
     color: #fff;
-    border-bottom: red;
+    border-bottom: 1px solid red;
     transition: 0.3s;
 }
 

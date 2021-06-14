@@ -17,8 +17,9 @@
                <div class="col-2">
                    <a href="/"><img src="../static/img/logo_project.png" alt="logo" class="logo_img"></a>
                </div>
-                   <div class="col-2"></div>
+                   <div class="col-1"></div>
                <a href="/" class="col-3 text-center"><div class="logo_text"><h2>PCShop</h2></div></a>
+
                 <div class="col-1">
                     <a href="#"><img src="../static/img/heart.png" alt="like" class="heart_img"></a>
                     <a href="/basket"><img src="../static/img/basket.png" alt="basket" class="basket_img"></a>
@@ -32,21 +33,20 @@
                             </a>
                         </div>
            </div>
-           <div class="container">
-            <div class="nav_body row justify-content-between">
-                    <div class="col-2 nav_1">
-                        <a href="/pcbuilds">Зборки</a>
-                    </div>
-                    <div class="col-2 nav_2 text-center">
-                        <a href="/periphery">Комп’ютерна переферія</a>
-                    </div>
-                    <div class="col-1 nav_3">
-                        <a href="/complementary">Комплектуючі</a>
-                    </div>
-                </div>
-            </div>
+
        </div>
    </div>
+
+    <div class="navigation">
+        <div class="container">
+            <div class="nav_items row justify-content-between">
+                <a href="/pcbuilds" class="col-1">Зборки</a>
+                <a href="/periphery" class="col-2 text-center">Комп’ютерна переферія</a>
+                <a href="/complementary" class="col-1">Комплектуючі</a>
+
+            </div>
+        </div>
+    </div>
 </header>
 
 {% block body %} {% endblock %}
@@ -55,7 +55,17 @@
         <div class="footer">
             <div class="sots row justify-content-center">
                 <div class="col-1"><a href="#"><img src="../static/img/instagram.png" alt="instagram" width="35px"></a></div>
+                <div class="col-1"><a href="#"><img src="../static/img/google.png" alt="google" width="35px"></a></div>
+                <div class="col-1"><a href="#"><img src="../static/img/facebook.png" alt="facebook" width="35px"></a></div>
+
             </div>
+
+                <div class="copyright row justify-content-center">
+                    <div class="col-2">
+                        <a href="#">©Copyright PCShop</a>
+                    </div>
+                </div>
+
         </div>
     </div>
 </footer>

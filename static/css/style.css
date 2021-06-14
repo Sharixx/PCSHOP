@@ -18,7 +18,7 @@ header a {
 
 .header_nav {
     width: 100%;
-    background: #000000;
+    background: #0F0F0F;
 }
 
 .logo_img {
@@ -103,27 +103,43 @@ header a {
     transition: 0.3s;
 }
 
-.nav_body {
-    height: 29px;
-    width: 100%;
-    background: #000000;
+
+
+
+.nav_items{
+    color: #fff;
+    font-size: 14px;
+    background: #363636;
+    height: 30px;
+
 }
 
-.nav_body a:hover{
+.nav_items a{
+    text-decoration: none;
+
+}
+.nav_items a:hover{
+    border-bottom: 5px solid red;
+    transition: 0.1s;
     color: #fff;
 }
-
-.nav_1 {
-    font-size: 14px;
+.sots{
+    background: #363636;
 }
 
-.nav_2 {
-    font-size: 14px;
-    margin: 0 auto;
+.sots img:hover{
+    opacity: 0.6;
+    transition: 0.4s;
 }
 
-.nav_3 {
-    font-size: 14px;
+.copyright{
+    background: #0F0F0F;
+    height: 50px;
+    align-items: center;
+}
+.copyright a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .main_section{
