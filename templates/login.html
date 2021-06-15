@@ -1,11 +1,14 @@
 {% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
 
 {% block body %}
      <section>
          <div class="container main_section">
-            <form class="form-signin">
-                <label for="inputUsername" class="sr-only">Username</label>
-                    <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+            <form class="form-signin" method="POST" action="/login">
+                {{ form.hidden_tag() }}
+                {{ wtf.form_field(form.username) }}
+
+
                 <label for="inputPassword" class="sr-only">Password</label>
                     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
                 <div class="checkbox">
