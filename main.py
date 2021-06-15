@@ -49,9 +49,7 @@ def basket():
 
 @app.route('/login')
 def login():
-    form = LoginForm()
-
-    return render_template('login.html', form=form)
+    return render_template('login.html')
 
 
 @app.route('/register')
