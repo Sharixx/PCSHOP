@@ -38,5 +38,10 @@ def basket():
     return render_template('basket.html')
 
 
+@app.route('/login')
+def login():
+    return render_template('basket.html')
+
+
 if __name__ == "__main__":
     app.run(debug=True)
